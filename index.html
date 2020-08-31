@@ -14,12 +14,13 @@
   </head>
   <body>
     <div class="container">
-      <div id="grade"></div>
+      <div id="showData"></div>
       <div class="row mt-5">
         <div class="col-md-4">
           <p>Student Grade Calculator</p>
         </div>
         <div class="col-md-6">
+          
           <form>
             <div class="form-group">
               <label for="math">Math</label>
@@ -38,7 +39,9 @@
               <input type="text" class="form-control" id="computer" />
             </div>
 
-            <button type="submit" class="btn btn-primary">Total Score</button>
+            <button type="button" onclick="calcy()" class="btn btn-primary">
+              Total Score
+            </button>
           </form>
         </div>
       </div>
